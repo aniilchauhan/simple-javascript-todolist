@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <script src='./callback.js'></script>
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="todo-main">
+        <div class="container">
+            <div class="todo-list">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 col-sm-8">
+                <div class="todo-container">
+                 <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-8"><h3>Todo App</h3></div>
+                 </div>
+                 <div class="row input-field">
+                    <div class="col-lg-10 col-md-10 col-sm-10"><input type="text" name = "todo" id="todoInput" placeholder="Add your new todo"></div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 p-0"><button id="addList" onclick="addTodo(this)">+</button></div>
+                    <span id="errorMsg"></span>
+                 </div>
+                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div id="newTodo"></div>
+                    </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-lg-8 col-md-8 col-sm-8"><p class="todo-count-msg">You have <span id="todoCount">0</span> pending tasks</p></div>
+                   <div class="col-lg-4 col-md-4 col-sm-4"><button id="clearButton" onclick="clearTodo(this)">Clear All</button></div>
+                 </div>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

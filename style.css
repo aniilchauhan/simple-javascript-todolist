@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(to right,rgba(84, 84, 194, 0.781),rgba(197, 72, 72, 0.788));
+}
+.todo-container{
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    /* height: 100px; */
+}
+.input-field{
+    padding: 10px 5px;
+}
+#todoInput{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(160, 149, 149);
+    padding: 4px 10px 4px 10px;;
+}
+#addList{
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    padding: 2px 10px 6px 10px;
+}
+#errorMsg{
+    font-size: 12px;
+    color: red;
+    padding-left: 15px;
+}
+#newTodo{
+    padding: 10px 5px;
+    height: 300px;
+    
+}
+.todo-overflow{
+    overflow-y: scroll;
+}
+.new-todo-item{
+    width: 100%;
+    background-color: rgb(199, 188, 188) ;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.todo-count-msg{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#clearButton{
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 10px 6px 10px;
+}
